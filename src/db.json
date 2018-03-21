@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,
+        "title":"HTML",
+        "feed":"Learn HTML (HyperText Markup Language), the language common to every website. HTML describes the basic structure and content of a web page. If you want to build a website or web application, you'll need to know HTML. "
+    },
+    {
+        "id":2,
+        "title":"CSS basics",
+        "feed":"CSS (Cascading Style Sheets) is a style sheet language that describes the presentation of web pages. Whereas HTML is what forms the structure of a web page, CSS is what we use to style the HTML with colors, backgrounds, font sizes, layout, and more. As you'll soon learn, CSS is one of the core technologies for designing and building websites."
+    },
+    {
+        "id":3,
+        "title":"CSS Selectors",
+        "feed":"In this short course, we're going to go beyond the basic selector concepts covered in CSS Basics. Besides the common ways to select elements with type, ID and class selectors, we're able to target elements based on their attributes, position in the HTML document, even their relation to other elements. By the end of this course, you'll have gained a better understanding of the power and flexibility behind CSS selectors. You'll have a new set of valuable tools in your CSS toolkit to use on your next project."
+    },
+    {
+        "id":4,
+        "title":"CSS Flexbox",
+        "feed":"Flexbox is a set of CSS properties that give you a flexible way to lay out content. With flexbox you can change the direction, alignment, size and order of elements, regardless of their original size and order in the HTML. You can even stretch and shrink elements and distribute space, all with just a few lines of CSS!"
+    },
+    {
+        "id":5,
+        "title":"JavaScript",
+        "feed":"JavaScript is a programming language that drives the web: from front-end user interface design, to backend server-side programming, you'll find JavaScript at every stage of a web site and web application. In this course, you'll learn the fundamental programming concepts and syntax of the JavaScript programming language."
+    },
+    {
+        "id":6,
+        "title":"Getting Started With ES6",
+        "feed":"ES2015, also called ES6, is a newer version of the JavaScript language that’s well supported in browsers and commonly used by programmers. In this course, you'll get up-to-speed with ES2015 basics and be well on your way to writing modern JavaScript. You'll learn best practices for creating variables, using the let and const keywords, and a better way to concatenate string values using template literals. You'll also learn the compact syntax for creating functions using \"arrow syntax.\""
+    }
+
+]
