@@ -12,12 +12,23 @@ class App extends Component {
       courses,
       filtered: courses
     };
+
+    this.coursesSearch = this.coursesSearch.bind(this);
   }
+
+  coursesSearch(keywords) {
+    const filtered = this.state.courses.filter(function(item) {
+      return item.title.toLowerCase().includes(keywords.toLowerCase());
+    });
+
+    this.setState({ filtered });
+  }
+
   render() {
     return (
       <div className="App">
-        <Header />
-        <CourseList courses={this.state.courses} />
+        <Header coursesSearch={this.coursesSearch} />
+        <CourseList courses={this.state.filtered} />
       </div>
     );
   }
